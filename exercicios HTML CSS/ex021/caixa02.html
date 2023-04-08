@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            color: blue;
+        }
+
+        nav {
+            background-color: rgb(150, 150, 150);
+            padding: 3px;
+            box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.459);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: rgb(253, 251, 251);
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px 20px 0px;
+            box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.356);
+            
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+            border-radius: 20px 0px 20px 0px;
+        }
+
+        article > aside {
+            background-color: rgb(90, 89, 89);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            
+        </nav> 
+    </header>
+
+    <main>
+        <section id="assunto">
+            <p>Espeortes Politica Tecnologia
+            </p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quaerat quasi nesciunt. Rem, quos. Deserunt facere repellat odit sed aspernatur pariatur recusandae incidunt eius, enim eveniet nesciunt illo veritatis maiores.</p>
+                <aside>
+                    <p>Artigo escrito por Carlos Henrique</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Carlos Henrique</p>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,60 @@
+@charset "UTF-8";
+header {
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.158), rgba(0, 128, 0, 0.884));
+    margin: 0px;
+    box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.575);
+    color: white;
+}
+
+nav {
+    padding: 4px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+body {
+    background-color: rgb(169, 228, 169);
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+    width: 813px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1#versao {
+    color: green;
+    background-color: rgba(0, 128, 0, 0.212);
+    
+}
+
+h1#mascote {
+    color: green;
+    background-color: rgba(0, 128, 0, 0.26);
+}
+
+footer {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+    font-weight: bold;
+}
+
+
+
+
+
